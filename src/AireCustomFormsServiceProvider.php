@@ -15,12 +15,12 @@ class AireCustomFormsServiceProvider extends ServiceProvider
 			\Galahad\Aire\Aire::getDefaultThemeConfig(),
 			[
 				'default_classes' => [
-					'input' => 'form-input',
+					'input' => 'form-input block w-full',
 					'radio_group' => 'form-radio',
-					'select' => 'form-select',
+					'select' => 'form-select block w-full',
 					'checkbox' => 'form-checkbox',
 					'checkbox_group' => 'form-checkbox',
-					'textarea' => 'form-textarea',
+					'textarea' => 'form-textarea block w-full',
 				],
 			]
 		));
