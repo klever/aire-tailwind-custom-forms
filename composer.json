@@ -14,9 +14,9 @@
   ],
   "license": "MIT",
   "require": {
-    "php": ">=7.1",
+    "php": "^7.4|^8.0",
     "glhd/aire": "^1.6.0|^2.0|dev-*",
-    "illuminate/support": "^5.7|^6.0|^7.0"
+    "illuminate/support": "^5.7|^6.0|^7.0|^8.0"
   },
   "require-dev": {
     "orchestra/testbench": "~3.0|~4.0|~5.0",
